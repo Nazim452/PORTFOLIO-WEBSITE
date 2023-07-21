@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Nazim</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(11, 11, 87);
+            height: 80px;
+        }
+
+        nav ul {
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(93, 93, 159);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            color: white;
+            font-size: 1.6rem;
+        }
+
+        .firstsec {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            color: white;
+            align-items: center;
+           
+
+        }
+
+        .firstsec>div {
+            /*  > means only first width ko hi 30%width*/
+            width: 30%;
+
+        }
+
+        .leftsec {
+
+            font-size: 2.2rem;
+        }
+        .leftsec .btn{
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+           
+        }
+        .leftsec .button{
+            padding: 50px 0;
+
+        }
+
+        .rightsec {
+            color: white;
+
+
+        }
+
+        .rightsec img {
+            width: 80%;
+            margin: 10px 0;
+        }
+
+        .ncol {
+            color: rgb(132, 65, 194);
+        }
+
+        #element {
+            color: rgb(132, 65, 194);
+
+        }
+
+        .secondsec {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .secondsec h1 {
+            font-size: 1.6rem;
+        }
+
+        .textgrey {
+            color: grey;
+        }
+
+        .secondsec .box {
+            background: white;
+            width: 81vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsec .vertical{
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 110px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            color: white;
+            width: 160px;
+            font-size: 14px;
+        }
+
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+        }
+        .footer{
+            display: flex;
+            color: white;
+            background-color: rgb(69, 11, 69);
+            /* height: 200px; */
+            padding: 23px  50px;
+            justify-content: space-evenly;
+            
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Nazim's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">My project</a></li>
+                    <li> <a href="#">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsec">
+            <div class="leftsec">
+                Hi, My name is <span class="ncol"> Nazim</span>
+
+                <div>& I am a passionate </div>
+
+                <span id="element"></span>
+
+                <div class="button">
+                    <button><div class="btn">Download resume</div></button>
+                    <button><div class="btn">Visit GitHub</div></button>
+                </div>
+            </div>
+
+            <div class="rightsec">
+                <img src="dev3.png" alt="">
+
+
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondsec">
+            <span class="textgrey"> What I have done so far</span>
+            <h1 style="color: white;">Work experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top"src="dev1.png" alt="">
+                    <div class="vertical-title">
+                        java developer(2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, ex.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"src="dev1.png" alt="">
+                    <div class="vertical-title">
+                        java developer(2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, ex.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"src="dev1.png" alt="">
+                    <div class="vertical-title">
+                        java developer(2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, ex.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"src="dev1.png" alt="">
+                    <div class="vertical-title">
+                        java developer(2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, ex.
+                    </div>
+                </div> 
+
+
+                <div class="vertical">
+                    <img class="image-top"src="dev1.png" alt="">
+                    <div class="vertical-title">
+                        java developer(2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, ex.
+                    </div>
+                </div> 
+
+
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer1">
+                <h3>Nazim developer portfolio</h3>
+            </div>
+            <div class="footer2">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>project</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer3">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>project</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer4">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>project</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            
+            
+        </div>
+    
+        
+        <div class="text-center" style="color: white;">
+            Copyright
+        </div>
+
+        
+    </footer>
+
+    <!-- from typed.js -->
+
+
+    <!-- Element to contain animated typing -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+
+    <!-- Setup and start animation! -->
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer.', 'Graphic designer.', 'full stack web developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
